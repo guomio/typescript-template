@@ -1,0 +1,17 @@
+{
+  "name": "typescript-template",
+  "version": "1.0.0",
+  "description": "typescript项目启动模板",
+  "module": "commonjs",
+  "main": "lib/index.js",
+  "repository": "https://github.com/guomio/typescript-template.git",
+  "author": "guomio <guoxf1@ziroom.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "tsc -w --incremental --p ./",
+    "build": "rm -rf lib && tsc --incremental --p ./"
+  },
+  "devDependencies": {
+    "typescript": "^3.9.7"
+  }
+}
